@@ -11,12 +11,6 @@ class langSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('localizations')->insert([
-            'city' => '台灣',
-            'language' => '繁體',
-            'code'=>'tw-chi',
-            'slogan'=>'slogan-tw.png'
-        ]);
 
         DB::table('localizations')->insert([
             'city' => '香港',

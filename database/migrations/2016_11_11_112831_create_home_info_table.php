@@ -43,7 +43,7 @@ class CreateHomeInfoTable extends Migration
      */
     public function down()
     {
-        Schema::drop('home_info');
+        Schema::drop('home_infos');
 
     }
 }
