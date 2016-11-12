@@ -1,0 +1,158 @@
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+.video-js{
+    margin:auto;
+}
+.page-title {
+    font-size: 27px;
+    font-weight: 600;
+    color: #595959;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 15px 35px;
+}
+.slogan {
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    color: #383838;
+    margin-bottom: 55px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+#mobile_carousel {
+    height: 450px;
+    width: 250px;
+    margin:auto;
+    margin-top: 55px;
+
+}
+#mobile_carousel .item {
+    height: 450px;
+    width: 250px;
+    margin:auto;
+
+}
+
+#mobile_carousel .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+h3.icn_title {
+    margin-top: 55px;
+    padding: 0 15px;
+}
+
+.icn_steps{
+    margin-top:15px;
+}
+.icn_steps span {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    margin-left: 15px;
+    border-left: 5px solid #ee662f;
+    padding-left: 10px;
+    top: 45px;
+    text-align: left;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+    color: #ee662f;
+}
+
+img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+}
